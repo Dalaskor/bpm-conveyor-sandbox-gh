@@ -1,3 +1,4 @@
-module.exports = (a, b) => a + b;
-// check72 Thu Nov 26 15:06:16 MSK 2026
-// check72 head2
+const sum = (a, b) => a + b;
+const diff = (a, b) => a - b;
+
+module.exports = Object.assign(sum, { diff });
